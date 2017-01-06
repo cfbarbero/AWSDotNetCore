@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89E0C58E-60B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA208F98-0907-43C0-A049-C170B1A3259A}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AWSDotNetCore", "src\AWSDotNetCore\AWSDotNetCore.xproj", "{A1C1796F-B4AA-4FFA-A6DA-00FEB937B851}"
@@ -28,15 +30,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A1C1796F-B4AA-4FFA-A6DA-00FEB937B851} = {89E0C58E-60B4-45EC-B9E9-0A576EA065AE}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs.ontargetjobs.com/tfs/otj
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = src\\AWSDotNetCore\\AWSDotNetCore.xproj
-		SccProjectTopLevelParentUniqueName1 = AWSDotNetCore.sln
-		SccProjectName1 = src/AWSDotNetCore
-		SccLocalPath1 = src\\AWSDotNetCore
 	EndGlobalSection
 EndGlobal
